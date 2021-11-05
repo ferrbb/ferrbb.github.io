@@ -46,14 +46,14 @@
 	background: url(fm.jpg);
 	height: 44.4em;
 	padding: 50px;
-	padding-left: 5em;
-	padding-right: 5em;
+	padding-left: 15px;
+	padding-right: 15px;
 	float: left;
 	display: block;
 }
 
 .parte2 .titulo{
-	margin-left: 300px;
+	margin-left: 90px;
 	color: white;
 }
 
@@ -155,11 +155,11 @@ textarea:hover{
 @media screen and (max-width: 767px) and  (min-width: 375px){
     
 	.parte1 .abajo{
-		height: 42.3em;
+		height: 53.6em;
 	}
 
 	.parte2{
-		height: 50.8em;
+		height: 62.2em;
 		width: 85%;
 	}
 	.parte1{
