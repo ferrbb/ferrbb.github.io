@@ -1,0 +1,177 @@
+@media screen and (max-height:1200px)  {
+
+.parte1{
+	width: 10%;
+	background-color: #000000;
+	height: 100%;
+	text-align: center;
+	float: left;
+	display: block;
+}
+
+.parte1 .titulo{
+	color: white;
+	font-size: 40px;
+}
+
+.parte1 .nombre{
+	color: yellow;
+	font-size: 10px;
+	padding-bottom: 15px;
+}
+
+.parte1 .abajo{
+	background-color: #434342;
+	border: 4px solid black;
+	height: 36.75em;
+}
+
+.parte1 .abajo img{
+	width: 2.5em;
+	height: 3.5em;
+	padding-top: 1em;
+}
+
+.parte1 .abajo .imagen1{
+	width: 1.5em;
+	height: 2em;
+	padding-top: 0.5em;
+}
+
+.parte2{
+	border-top:4px solid black;
+	border-right:4px solid black;
+	border-bottom:4px solid black;
+	width: 90%;
+	background: url(fm.jpg);
+	height: 44.4em;
+	padding: 50px;
+	padding-left: 5em;
+	padding-right: 5em;
+	float: left;
+	display: block;
+}
+
+.parte2 .titulo{
+	margin-left: 300px;
+	color: white;
+}
+
+.parte2 input{
+	margin-bottom: 1em;
+}
+
+.parte2 input:hover{
+	background-color: yellow;
+	opacity: 0.5;
+}
+
+
+.parte2 button{
+	border-radius: 15px;
+	width: 100px;
+	height: 40px;
+}
+
+hr{
+color: white;
+font-size: 5px;
+}
+
+.parte2 button:hover{
+	background-color: yellow;
+	opacity: 0.5;
+}
+
+label{
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  width: 80px;
+}
+
+textarea:hover{
+	background-color: yellow;
+	opacity: 0.5;
+}
+
+.formulario{
+    	padding-left: 11.3em;
+    	color: white;
+    	font-size: 30px;
+    }
+
+}
+
+
+    
+@media screen and (max-width: 1024px) and  (min-width: 768px){
+    
+	.parte1{
+		padding: 5px;
+		width: 10%;
+	}
+
+	.parte1 .abajo{
+		height: 54.77em;
+	}
+
+	.parte2{
+		height: 64em;
+		width: 90%;
+		padding-top: 8em;
+	}
+    
+    .parte2 input{
+    	width: 33em;
+    }
+
+    .form-select{
+    	width: 33em;
+    }
+
+    .form-control{
+    	width: 33em;
+    }
+
+    .formulario{
+    	padding-left: 6.3em;
+    	color: white;
+    	font-size: 30px;
+    }
+
+    .parte2 label{
+    	font-size: 25px;
+    }
+
+    .parte2 button{
+    	width: 150px;
+    	height: 80px;
+    	font-size: 30px;
+    	margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px) and  (min-width: 375px){
+    
+	.parte1 .abajo{
+		height: 42.3em;
+	}
+
+	.parte2{
+		height: 50.8em;
+		width: 85%;
+	}
+	.parte1{
+		width: 15%;
+	}
+
+	 .formulario{
+    	padding-left: 0.2em;
+    	color: white;
+    }
+
+     .parte2 button{
+    	margin-bottom: 1em;
+    }
+}
